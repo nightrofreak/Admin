@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>ADMIN</title>
+	<style>
+		body {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			min-height: 100vh;
+		}
+	</style>
+</head>
+<body>
+     <form 
+           method="post"
+           enctype="multipart/form-data">
+		   
+		<div>	<select name="choix">
+				<option value="img"> Image </option>
+				<option value="vid"> Video </option>
+				<option value="onl">Online  </option>
+			</select></div><br><br>
+			<fieldset>
+			<div>
+			<p>Votre Statu :</p>
+			<textarea name="desc"></textarea>
+			<p> votre fichier : <p>
+           <input type="file" 
+                  name="file">
+	</div>
+	</fieldset>
+ 
+<table width="100%" border ="1" cellspacing="1" cellpadding="1"><tr><td>
+	    ADD AN ONLINE POST <br>
+  	 
+	   <p> URL = <textarea name="you"></textarea></p>
+	   <p> Descip = <textarea name="desc2"></textarea> </p></td><tr></table>
+     
+	 <Button type="submit" name="ajouter">Upload</button>
+     </form>
+	 
+
+
+
+	 
+		
+</body>
+</html>
